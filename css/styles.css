@@ -1,0 +1,147 @@
+@charset "utf-8";
+/*
+   sample start file for final project - educational use only
+   
+   Author:   April Bedgood
+   Date:     11-20-2023
+   
+  
+
+*/
+
+* {
+    margin: 0; 
+    padding: 0;
+}
+
+body {
+    font-size: 1.1em;
+    font-family: Arial, Helvetica, sans-serif, Calisto;
+	background-color: 	Black;
+}
+
+#container {
+    width: 900px;
+    margin:auto;
+    background-color: Black;
+}
+
+
+header {
+    width:910px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    text-align: left;
+	background-color: 		#C0C0C0;
+    border: 1px solid #888888;
+    box-shadow: 10px 10px 2.5px#40E0D0;
+    border-radius: 25px;  	
+}
+
+nav {
+    width: 200px;
+    margin: 0 5px 0 5px; 
+    padding: 25px 10px 0 10px;
+    float: right;
+    text-align: right;
+}
+
+nav ul {
+    font-weight: bold;
+    list-style: none;
+}
+
+nav ul li a {
+    padding: 5px;
+    color: Black;
+    text-decoration: none;
+    display:block;
+}
+
+nav ul li a:hover {
+    background: #40E0D0;
+    border-radius: 10px;
+    color: white;
+}
+
+#main {
+    float: left;
+	margin: 80px 10px 5px 20px;
+
+}
+
+#main2 {
+    float: right;
+	margin: 60px 5px 10px 5px;
+
+}
+
+figure{
+    padding-top: 10px;
+    text-align: center;
+	float: center;
+}
+
+figcaption {
+    font-style: italic;
+	color:#40E0D0;
+}
+
+h1{
+	font-family: Arial;
+	font-size: 2em;
+	color:#40E0D0;
+	text-align: center;
+}
+aside {
+	height: 450px;
+    width: 370px;
+    margin:0px 5px 10px 5px;
+    padding: 10px;
+    float: right;
+	background-color: White;
+}
+
+aside p {
+    font-style: italic;
+    font-size:1em;
+	text-align: center;
+	color:Black;
+}
+
+
+
+
+footer {
+    width: 910px;
+    margin: 0;
+    padding: 10px;
+    background-color: #40E0D0;
+    clear: both;
+    color: white;
+    font-weight: bold;
+    text-align:center;
+	border-bottom-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+}
+
+#wrapper {
+    width: 930px;
+    margin-bottom: 10px;
+    border: 2px solid;
+    border-radius: 25px;
+}/* navigation for footer */
+footer a:link {
+    color: #DAA520;
+    text-decoration: none;
+}
+
+footer a:visited {
+    color: navy;
+    background-color: grey;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
